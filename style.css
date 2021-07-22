@@ -6,7 +6,7 @@ body{
     background: #00a8a8;
     ;
 }
-.teste{
+#container-portfolio{
     width: 100%;
     position: relative;
     display: inline-block;
@@ -21,10 +21,10 @@ body{
     font-size: 40px;
     list-style: none;
 }
-.img-portfolio{
+.img-background{
     width: 100%;
 }
-.gato{
+ul{
     list-style: none;
 }
 @media screen and (max-width: 1300px) {
@@ -39,16 +39,58 @@ body{
 }
 @media screen and (max-width: 750px) {
     .ul-portfolio{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
-.sobre{
+#about{
     position: relative;
     display: flex;
     flex-direction: column;
-    
     width: 40%;
     left: 50%;
     padding: 20px;
     color: white;
 }
+#tec{
+    background: #d50075;
+}
+.content-tec{
+    width: 40%;
+    text-align: center;
+}
+.desc-tec{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+button{
+    background: #d50075;
+    border: 3px solid white;
+    color: white;
+    padding: 3px;
+}
+.buttons-tec{
+    display: grid;
+    grid-template-areas: "a1 a1 a2 a2 a3 a3";
+    grid-gap: 5px;            
+    padding: 10px;         
+}
+
+button:hover{
+    background: #00a8a8;
+    box-shadow: 5px 5px 10px black;
+}
+#contact{
+    background: #6e5494;
+    padding: 10px;
+}
+.img-footer{
+    width: 30px;
+    margin: 10PX;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
